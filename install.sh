@@ -14,11 +14,11 @@ brew update
 brew tap homebrew/bundle
 brew bundle
 
-# Install Oh-My-Zsh
-sh "$(curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh)"
-
 # Make ZSH the default shell environment
 chsh -s $(which zsh)
+
+# Install Oh-My-Zsh
+sh -c "$(curl -fsSL https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh)"
 
 # Install node stable version
 nvm install stable
