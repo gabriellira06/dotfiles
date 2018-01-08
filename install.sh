@@ -14,25 +14,15 @@ brew update
 brew tap homebrew/bundle
 brew bundle
 
+# Install Oh-My-Zsh
+curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+
 # Make ZSH the default shell environment
 chsh -s $(which zsh)
 
-# Install Composer
-curl -sS https://getcomposer.org/installer | php
-mv composer.phar /usr/local/bin/composer
-
-# Install global Composer packages
-/usr/local/bin/composer global require laravel/installer laravel/lumen-installer laravel/spark-installer laravel/valet
-
-# Install Laravel Valet
-$HOME/.composer/vendor/bin/valet install
-
-# Install global NPM packages
-npm install --global yarn
-
-# Create a Sites directory
-# This is a default directory for macOS user accounts but doesn't comes pre-installed
-mkdir $HOME/Sites
+# Install node stable version
+nvm install stable
+nvm use stable
 
 # Symlink the Mackup config file to the home directory
 ln -s ./.mackup.cfg $HOME/.mackup.cfg
