@@ -15,7 +15,7 @@ brew tap homebrew/bundle
 brew bundle
 
 # Install Oh-My-Zsh
-curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+sh "$(curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh)"
 
 # Make ZSH the default shell environment
 chsh -s $(which zsh)

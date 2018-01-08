@@ -2,11 +2,12 @@
 tap 'caskroom/cask'
 tap 'caskroom/versions'
 tap 'homebrew/bundle'
-tap 'homebrew/dupes'
 
 # Install ZSH
 brew 'zsh'
 brew 'zsh-completions'
+brew 'z'
+brew 'autoenv'
 
 # Install GNU core utilities (those that come with macOS are outdated)
 brew 'coreutils'
@@ -18,7 +19,7 @@ brew 'findutils'
 brew 'bash'
 
 # Install more recent versions of some macOS tools
-brew 'homebrew/dupes/grep'
+brew 'grep'
 
 # Install Binaries
 brew 'git'
@@ -34,7 +35,7 @@ brew 'nvm'
 cask 'anaconda'
 cask 'atom'
 cask 'visual-studio-code'
-cask 'github-desktop'
+cask 'github'
 cask 'sourcetree'
 cask 'dotnet-sdk'
 
@@ -77,6 +78,5 @@ cask 'qlimagesize'
 #mas '1Password', id: 443987910
 #mas 'Wunderlist', id: ?
 #mas 'Disk Care', id: ?
-<div id=""></div>
 
 mas 'Unsplash Wallpapers', id: 1284863847
