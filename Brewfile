@@ -78,4 +78,4 @@ cask 'qlimagesize'
 #mas 'Wunderlist', id: ?
 #mas 'Disk Care', id: ?
 
-mas 'Unsplash Wallpapers', id: 1284863847
+#mas 'Unsplash Wallpapers', id: 1284863847
