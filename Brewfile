@@ -70,7 +70,6 @@ cask 'qlmarkdown'
 cask 'quicklook-json'
 cask 'quicklook-csv'
 cask 'qlstephen'
-cask 'betterzipql'
 cask 'webpquicklook'
 cask 'qlimagesize'
 
