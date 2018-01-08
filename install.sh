@@ -18,7 +18,7 @@ brew bundle
 chsh -s $(which zsh)
 
 # Install Oh-My-Zsh
-sh -c "$(curl -fsSL https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh)"
+#sh -c "$(curl -fsSL https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh)"
 
 # Install node stable version
 nvm install stable
