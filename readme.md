@@ -1,4 +1,4 @@
-# Dries's Dotfiles
+# Lira's Dotfiles
 
 ## What Is This?
 
