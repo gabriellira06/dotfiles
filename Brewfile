@@ -2,6 +2,7 @@
 tap 'caskroom/cask'
 tap 'caskroom/versions'
 tap 'homebrew/bundle'
+tap 'caskroom/fonts'
 
 # Install ZSH
 brew 'zsh'
@@ -21,48 +22,74 @@ brew 'bash'
 # Install more recent versions of some macOS tools
 brew 'grep'
 
-# Install Binaries
+# Install Binaries/CLI tools
 brew 'git'
 brew 'hub'
 brew 'tree'
-brew 'mackup'
 brew 'mas'
 brew 'trash'
 brew 'wget'
+brew 'dtrx'
+brew 'bat'
+brew 'tmux'
 
-# Development
+# Development/Platforms
 brew 'nvm'
 cask 'anaconda'
+cask 'dotnet-sdk'
+
+# Develoment Tools
+brew 'csvkit'
 cask 'atom'
 cask 'visual-studio-code'
 cask 'github'
 cask 'sourcetree'
-cask 'dotnet-sdk'
+cask 'postman'
+cask 'dash'
+cask 'docker'
+cask 'nteract'
+cask 'p4merge'
 
-# Apps
-cask 'aerial'
-cask 'caffeine'
+# Database Tools
+cask 'tableplus'
+cask 'datagrip'
+
+# Browsers
 cask 'firefox'
 cask 'google-chrome'
-cask 'shuttle'
 
+# File Management
+cask 'google-backup-and-sync'
+cask 'dropbox'
+
+# Comms
 cask 'slack'
 cask 'whatsapp'
+cask 'skype'
 
+# Music
+cask 'spotify'
+cask 'lastfm'
+
+# Utilities
+brew 'mackup'
+cask 'iterm2'
+cask 'aerial'
+cask 'caffeine'
 cask 'vlc'
 cask 'the-unarchiver'
 cask 'cloudapp'
 cask 'itsycal'
 cask 'daisydisk'
-cask 'spotify'
-cask 'skype'
-cask 'lastfm'
+cask 'vnc-viewer'
+cask 'evernote'
 
 # not for professional use
 # cask 'utorrent'
 # cask 'steam'
 # cask 'sketch'
 # cask 'sketch-toolbox'
+# cask 'openemu'
 
 # Quicklook
 cask 'qlcolorcode'
@@ -73,9 +100,5 @@ cask 'qlstephen'
 cask 'webpquicklook'
 cask 'qlimagesize'
 
-# Install Mac App Store apps
-#mas '1Password', id: 443987910
-#mas 'Wunderlist', id: ?
-#mas 'Disk Care', id: ?
-
-#mas 'Unsplash Wallpapers', id: 1284863847
+# Fonts
+cask 'font-hack-nerd-font'

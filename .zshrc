@@ -52,7 +52,7 @@ ZSH_CUSTOM=$DOTFILES
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git history-substring-search z zsh-syntax-highlighting zsh-completions node nvm)
+plugins=(git git-extras history-substring-search z zsh-syntax-highlighting zsh-completions node nvm)
 
 # User configuration
 
@@ -62,7 +62,8 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -92,6 +93,7 @@ export NVM_DIR=~/.nvm
 
 export PATH=/usr/local/anaconda3/bin:"$PATH"
 export PATH=/usr/local/share/dotnet:"$PATH"
+export PATH=/usr/local/mysql-shell/bin:"$PATH"
 
 # for autoenv
 source $(brew --prefix autoenv)/activate.sh
