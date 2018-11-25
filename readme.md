@@ -34,7 +34,8 @@ If you did all this you may now follow these install instructions to setup a new
 6. Append `/usr/local/bin/zsh` to the end of your `/etc/shells` file
 7. Run `install.sh` to start the installation
 8. Restore preferences by running `mackup restore`
-9. Restart your computer to finalize the process
+9. Install manually the software needed
+10. Restart your computer to finalize the process
 
 Your Mac is now ready to use!
 
