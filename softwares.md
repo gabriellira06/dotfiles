@@ -9,10 +9,13 @@
 - Unsplash Wallpapers
 - feedly
 - Pocket
+- Backblaze
 
 ## Download and Manual Instalation
 - Microsoft Office
 - Adobe Suite
+- Oversight
+- 
 
 # References
 - Byword (Markdown Editor)
