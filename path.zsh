@@ -18,3 +18,11 @@
 # Load custom commands
 # Disabled this because I have no custom binaries at the moment.
 #export PATH="$DOTFILES/bin:$PATH"
+
+export NVM_DIR=~/.nvm
+. $(brew --prefix nvm)/nvm.sh
+. `brew --prefix`/etc/profile.d/z.sh
+
+export PATH=/usr/local/anaconda3/bin:"$PATH"
+export PATH=/usr/local/share/dotnet:"$PATH"
+export PATH=/usr/local/mysql-shell/bin:"$PATH"

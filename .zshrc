@@ -87,14 +87,6 @@ export LANG=en_US.UTF-8
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export NVM_DIR=~/.nvm
-. $(brew --prefix nvm)/nvm.sh
-. `brew --prefix`/etc/profile.d/z.sh
-
-export PATH=/usr/local/anaconda3/bin:"$PATH"
-export PATH=/usr/local/share/dotnet:"$PATH"
-export PATH=/usr/local/mysql-shell/bin:"$PATH"
-
 # for autoenv
 source $(brew --prefix autoenv)/activate.sh
 
