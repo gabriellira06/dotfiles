@@ -1,8 +1,8 @@
 # Load Node global installed binaries
-#export PATH="$HOME/.node/bin:$PATH"
+export PATH="$HOME/.node/bin:$PATH"
 
 # Use project specific binaries before global ones
-#export PATH="node_modules/.bin:vendor/bin:$PATH"
+export PATH="node_modules/.bin:vendor/bin:$PATH"
 
 # Make sure PHP 7.1 is loaded
 #export PATH="$(brew --prefix homebrew/php/php71)/bin:$PATH"
