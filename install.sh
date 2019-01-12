@@ -20,6 +20,11 @@ chsh -s $(which zsh)
 # Install Oh-My-Zsh
 sh -c "$(curl -fsSL https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh)"
 
+# Loading
+mv $HOME/.zshrc $HOME/.zshrc.bk
+echo "source ~/.dotfiles/.zshrc" > $HOME/.zshrc
+source $HOME/.zshrc
+
 # Install node stable version
 nvm install stable
 nvm use stable
