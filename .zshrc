@@ -88,7 +88,11 @@ export LANG=en_US.UTF-8
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # for autoenv
-source $(brew --prefix autoenv)/activate.sh
+#source $(brew --prefix autoenv)/activate.sh
+
+# for direnv
+eval "$(direnv hook zsh)"
+
 
 # -- Term ----------------------------------------------------------------------
 TERM=xterm-256color
