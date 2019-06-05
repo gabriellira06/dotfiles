@@ -15,7 +15,8 @@
 - Microsoft Office
 - Adobe Suite
 - Oversight
-- 
+- Balena Etcher
+
 
 # References
 - Byword (Markdown Editor)
