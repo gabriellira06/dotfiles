@@ -318,6 +318,9 @@ defaults write com.apple.menuextra.clock DateFormat "EEE MMM d  H:mm"
 # Prevent Photos from opening automatically when devices are plugged in
 defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 
+# Enable key repetition on VSCode
+defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
+
 ###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
