@@ -93,6 +93,10 @@ export LANG=en_US.UTF-8
 # for direnv
 eval "$(direnv hook zsh)"
 
+# for go
+export GOPATH=$HOME/go
+export GOBIN=$GOPATH/bin
+export PATH=$PATH:$GOBIN
 
 # -- Term ----------------------------------------------------------------------
 TERM=xterm-256color
