@@ -4,6 +4,7 @@
 - Install golang, node and dotnet versions (and set them global)
 - yarn (via homebrew), depends on nodejs
 - nvim +PlugInstall
+- GoInstallBinaries for vim-go
 
 ## Install Mac App Store apps
 
