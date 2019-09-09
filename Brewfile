@@ -31,14 +31,17 @@ brew 'wget'
 brew 'dtrx'
 brew 'bat'
 brew 'tmux'
+brew 'the_silver_searcher'
 
 # Development/Platforms
-brew 'nvm'
+# brew 'nvm'
 cask 'anaconda'
-cask 'dotnet-sdk'
+# cask 'dotnet-sdk'
 
 # Develoment Tools
 brew 'csvkit'
+brew 'vim'
+brew 'neovim'
 cask 'atom'
 cask 'visual-studio-code'
 cask 'github'
@@ -47,7 +50,6 @@ cask 'postman'
 cask 'dash'
 cask 'docker'
 cask 'nteract'
-cask 'p4merge'
 cask 'textmate'
 
 # Database Tools
@@ -70,6 +72,7 @@ cask 'skype'
 # Music
 cask 'spotify'
 cask 'lastfm'
+cask 'spotmenu'
 
 # Utilities
 brew 'mackup'
@@ -101,3 +104,4 @@ cask 'qlimagesize'
 
 # Fonts
 cask 'font-hack-nerd-font'
+cask 'font-fira-code'
