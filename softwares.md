@@ -1,5 +1,10 @@
 # Softwares that need to be installed manually
 
+## Needs improvement but for now
+- Install golang, node and dotnet versions (and set them global)
+- yarn (via homebrew), depends on nodejs
+- nvim +PlugInstall
+
 ## Install Mac App Store apps
 
 - 1Password

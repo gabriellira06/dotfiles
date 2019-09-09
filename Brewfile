@@ -32,8 +32,10 @@ brew 'dtrx'
 brew 'bat'
 brew 'tmux'
 brew 'the_silver_searcher'
+brew 'gpg'
 
 # Development/Platforms
+brew 'asdf'
 # brew 'nvm'
 cask 'anaconda'
 # cask 'dotnet-sdk'
@@ -104,4 +106,3 @@ cask 'qlimagesize'
 
 # Fonts
 cask 'font-hack-nerd-font'
-cask 'font-fira-code'
