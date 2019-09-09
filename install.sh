@@ -17,12 +17,12 @@ brew bundle
 # Make ZSH the default shell environment
 chsh -s $(which zsh)
 
-# Confuring brew completions
+# Sets brew completions
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
 fi
 
-# Settings for some dev enviroments
+# Settings for dev enviroments
 # Those are just the plugins, you will need to install the version yourself
 # with, for instance: asdf install golang 1.13
 # for now, Python and R are still managed by Anaconda (path set on path.zsh).
