@@ -26,8 +26,8 @@ echo "source ~/.dotfiles/.zshrc" > $HOME/.zshrc
 source $HOME/.zshrc
 
 # Install node stable version
-nvm install stable
-nvm use stable
+#nvm install stable
+#nvm use stable
 
 # Copy the Mackup config file to the home directory
 cp .mackup.cfg $HOME/.mackup.cfg

@@ -1,8 +1,8 @@
 # Load Node global installed binaries
-export PATH="$HOME/.node/bin:$PATH"
+#export PATH="$HOME/.node/bin:$PATH"
 
 # Use project specific binaries before global ones
-export PATH="node_modules/.bin:vendor/bin:$PATH"
+#export PATH="node_modules/.bin:vendor/bin:$PATH"
 
 # Make sure coreutils are loaded before system commands
 # I've disabled this for now because I only use "ls" which is
@@ -16,15 +16,14 @@ export PATH="node_modules/.bin:vendor/bin:$PATH"
 # Disabled this because I have no custom binaries at the moment.
 #export PATH="$DOTFILES/bin:$PATH"
 
-export NVM_DIR=~/.nvm
-. $(brew --prefix nvm)/nvm.sh
-. `brew --prefix`/etc/profile.d/z.sh
-
-export PATH=/usr/local/anaconda3/bin:"$PATH"
-export PATH=/usr/local/share/dotnet:"$PATH"
+#export PATH=/usr/local/anaconda3/bin:"$PATH"
+#export PATH=/usr/local/share/dotnet:"$PATH"
 #export PATH=/usr/local/mysql-shell/bin:"$PATH"
 
 # for go
-export GOPATH=$HOME/go
-export GOBIN=$GOPATH/bin
-export PATH=$PATH:$GOBIN
+#export GOPATH=$HOME/go
+#export GOBIN=$GOPATH/bin
+#export PATH=$PATH:$GOBIN
+
+# ssh
+# export SSH_KEY_PATH="~/.ssh/dsa_id"
