@@ -1,8 +1,6 @@
 # Taps
-tap 'caskroom/cask'
-tap 'caskroom/versions'
-tap 'homebrew/bundle'
-tap 'caskroom/fonts'
+tap 'caskroom/cask-versions'
+tap 'caskroom/cask-fonts'
 
 # Install ZSH
 brew 'zsh'
@@ -36,15 +34,12 @@ brew 'gpg'
 
 # Development/Platforms
 brew 'asdf'
-# brew 'nvm'
 cask 'anaconda'
-# cask 'dotnet-sdk'
+brew 'yarn'
 
 # Develoment Tools
 brew 'csvkit'
-brew 'vim'
 brew 'neovim'
-cask 'atom'
 cask 'visual-studio-code'
 cask 'github'
 cask 'sourcetree'
@@ -87,6 +82,7 @@ cask 'itsycal'
 cask 'daisydisk'
 cask 'vnc-viewer'
 cask 'evernote'
+cask 'karabiner-elements'
 
 # not for professional use
 # cask 'utorrent'
@@ -105,4 +101,4 @@ cask 'webpquicklook'
 cask 'qlimagesize'
 
 # Fonts
-cask 'font-hack-nerd-font'
+cask 'font-firacode-nerd-font'

@@ -1,17 +1,17 @@
 # Softwares that need to be installed manually
 
 ## Needs improvement but for now
-- Install golang, node and dotnet versions (and set them global)
-- yarn (via homebrew), depends on nodejs
+- Install golang, node and dotnet versions on ASDF (and set them global)
 - nvim +PlugInstall
 - GoInstallBinaries for vim-go
+- asdf reshim
 
 ## Install Mac App Store apps
 
 - 1Password
 - Moom
 - NordVPN IKE
-- Wunderlist
+- Microsoft To-do
 - Disk Care
 - Unsplash Wallpapers
 - feedly
