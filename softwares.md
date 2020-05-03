@@ -31,3 +31,4 @@
 - Transmit (File Transfer)
 - Tower2 (Git client)
 - Insomnia (API client)
+- Mindnode
